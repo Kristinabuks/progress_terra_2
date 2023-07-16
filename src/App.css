@@ -1,0 +1,29 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.App-button {
+  height: 100px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.App-button-disabled {
+  opacity: 0.2;
+}
+
+.App-logo {
+  height: 100%;
+}
+
+.App-text {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 32px;
+  padding-top: 25px;
+}
